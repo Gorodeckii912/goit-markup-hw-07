@@ -1,0 +1,21 @@
+@import './base/reset.scss';
+@import './general/general.scss';
+
+
+
+@import './header';
+@import './footer';
+@import './backdrop';
+@import './form-modal';
+@import './hero.';
+@import './section1-portfolio';
+@import './section2-portfolio';
+@import './section3-portfolio';
+@import './section4-portfolio';
+@import './prtfolio-sec1';
+@import './portfolio-sec2';
+
+
+body {
+    background-color: green;
+}

@@ -1,0 +1,108 @@
+/* Голова----------------- */
+
+.head {
+    background-color: var(--head-back-color);
+    border-bottom: 1px solid #ececec;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  header .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--link-active-color);
+    padding: 24px 0 25px 0px;
+  }
+  
+  .logo2 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-second-color);
+    margin-right: 104px;
+  }
+  .logonavflex {
+    display: flex;
+    height: 80px;
+  }
+  .TextNAV::after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--link-active-color);
+  
+    display: none;
+  }
+  .TextNAV:hover::after,
+  .TextNAV:focus::after {
+    display: block;
+  }
+  .TextNAV {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--head-nav-color);
+    transition: var(--time-trans);
+    transition-timing-function: var(--Cubik);
+  }
+  .TextNAV:hover,
+  .TextNAV:focus {
+    color: var(--link-active-color);
+  }
+  .pod4ekivanie {
+    padding-top: 32px;
+    position: relative;
+  }
+  .pod4ekivanie:not(:last-child) {
+    margin-right: 54px;
+  }
+  .pod4ekivanie:last-child {
+    margin-right: 280px;
+  }
+  
+  .otstup-top {
+    padding-top: 32px;
+  }
+  .mit {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--head-mailtel-color);
+    transition: var(--time-trans);
+    transition-timing-function: var(--Cubik);
+  }
+  .mit:hover,
+  .mit:focus {
+    color: var(--link-active-color);
+  }
+  .special-svg {
+    fill: currentColor;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .special-svg:hover {
+    fill: var(--link-active-color);
+  }
+  .special-svg:focus {
+    fill: var(--link-active-color);
+  }
+  .mailmargin {
+    margin-right: 30px;
+  }
