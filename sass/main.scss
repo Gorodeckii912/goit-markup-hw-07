@@ -1,19 +1,20 @@
-@import './base/reset.scss';
-@import './general/general.scss';
+@import './base/reset';
+@import './general/general';
+@import './utilits/variables';
 
 
 
-@import './header';
-@import './footer';
-@import './backdrop';
-@import './form-modal';
-@import './hero.';
-@import './section1-portfolio';
-@import './section2-portfolio';
-@import './section3-portfolio';
-@import './section4-portfolio';
-@import './prtfolio-sec1';
-@import './portfolio-sec2';
+@import './components/header';
+@import './components/footer';
+@import './components/backdrop';
+@import './components/form-modal';
+@import './components/hero';
+@import './components/section1-studio';
+@import './components/section2-studio';
+@import './components/section3-studio';
+@import './components/section4-studio';
+@import './components/prtfolio-sec1';
+@import './components/portfolio-sec2';
 
 
 body {
