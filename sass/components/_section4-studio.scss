@@ -1,5 +1,7 @@
 /* SEction 4-------------------- */
-.WS4 { background-color: #fff;}
+.WS4 {
+  background-color: #fff;
+}
 
 .WS4 .WS4h2 {
   font-family: "Roboto";
@@ -22,10 +24,11 @@
   height: 92px;
   transition: var(--time-trans);
   transition-timing-function: var(--Cubik);
-}
-.SVGclients:hover,
-.SVGclients:focus {
-  border: 1px solid rgba(33, 150, 243, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid rgba(33, 150, 243, 1);
+  }
 }
 
 .Clients {
@@ -35,14 +38,15 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
+
+  &:hover .Clients-svg,
+  &:focus .Clients-svg {
+    fill: rgba(33, 150, 243, 1);
+  }
 }
 
 .Clients-svg {
   fill: #afb1b8;
   transition: var(--time-trans);
   transition-timing-function: var(--Cubik);
-}
-.Clients:hover .Clients-svg,
-.Clients:focus .Clients-svg {
-  fill: rgba(33, 150, 243, 1);
 }

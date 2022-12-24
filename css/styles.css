@@ -108,10 +108,11 @@ header .container {
   color: var(--logo-second-color);
   margin-right: 104px;
 }
-.logonavflex {
+.navigation {
   display: flex;
   height: 80px;
 }
+
 .TextNAV::after {
   position: absolute;
   bottom: 0;

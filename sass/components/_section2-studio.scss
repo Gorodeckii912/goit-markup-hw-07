@@ -3,7 +3,7 @@
     background-color: var(--main-Section1and2Back-color);
   }
   
-  .WS2h2 {
+  .section__WS2h2 {
     padding: 0 486px 0 486px;
     font-family: "Roboto";
     font-weight: 700;
@@ -32,3 +32,8 @@
     letter-spacing: 0.03em;
     padding: 27px 95px;
   }
+  .section__WW {
+    margin-right: 30px;
+  }
+  .section__ulstyle { list-style: none;
+    display: flex;}
